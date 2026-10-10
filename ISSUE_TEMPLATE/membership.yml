@@ -1,0 +1,43 @@
+name: Membership Request
+description: Apply to join Aster451Template
+title: "[Membership] "
+labels:
+  - membership-request
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in Aster451Template!
+        Please complete this short form to request membership.
+        Membership is generally open, with a minimal review to prevent abuse.
+
+  - type: input
+    id: github-username
+    attributes:
+      label: GitHub Username
+      description: Enter your GitHub username.
+      placeholder: your-username
+    validations:
+      required: true
+
+  - type: textarea
+    id: interests
+    attributes:
+      label: Interests (Optional)
+      description: Tell us which projects or activities interest you.
+      placeholder: |
+        For example:
+        - Aster451 CSS
+        - Documentation
+        - Web development
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I agree to follow the organization's guidelines and will not engage in spam, abuse, or other disruptive behavior.
+          required: true
