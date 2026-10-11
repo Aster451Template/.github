@@ -1,6 +1,6 @@
 # Aster451 Template
 
-**Accessible Styling & Techniques for Expressive Representation · 451 Standard**
+**Accessible Styling & Techniques for Expressive Representation - 451 Standard**
 
 Aster451Template is an organization dedicated to creating accessible, readable, and reusable web experiences through thoughtful design, typography, and development.
 
