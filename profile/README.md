@@ -119,6 +119,8 @@ Each repository may have its own license and usage conditions. Please consult th
   <a href="https://github.com/orgs/Aster451Template/repositories">
     <img src="../asset/repo.png" alt="Explore our projects" width="240">
   </a>
+</div>
+<div align="center">
   <a href="https://github.com/Aster451Template/.github/issues/new?template=membership.yml">
     <img src="../asset/join.png" alt="Apply to join" width="240">
   </a>
